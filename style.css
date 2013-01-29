@@ -1,0 +1,14 @@
+*							{ -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body						{ margin: 0; padding: 0; font-family: "Lucida Grande", Helvetica, Arial, sans-serif; background: #111; }
+
+#page						{ width: 95%; max-width: 1200px; margin: 30px auto; }
+#page h1					{ font-family: Georgia, serif; color: #444; font-weight: normal; }
+
+#textbox, #seed				{ background: #000; border: solid 1px #222; padding: 5px; font-size: 1em; margin-bottom: 1.5em; -moz-border-radius: 3px; border-radius: 3px; color: #fff; font-weight: bold; float: left; }
+#textbox:focus, #seed:focus	{ outline: none; border-color: #444; }
+
+#textbox					{ width: 80%; margin-right: 2%; }
+#seed						{ width: 18%; }
+
+#canvas						{ background: #000; }
